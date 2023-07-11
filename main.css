@@ -1,0 +1,141 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.box {
+    width: 500px;
+    height: 600px;
+    border-radius: 10px 10px 0 0;    
+    background-image: url(6ad2a85a0757ae16ef12.png);
+    background-repeat: repeat;
+    filter: grayscale(1);
+    font-size: 22px;
+}
+
+.decorPanel {
+    padding: 10px 20px;
+    background-color: lightgrey;
+    border-radius: 10px 10px 0 0;
+}
+
+.cercle {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;    
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cross {
+    width: 15px;
+    height: 15px;
+    font-weight: bold;
+}
+
+.cross:hover {
+    cursor: pointer;
+}
+
+.contentBox {    
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid black;
+}
+
+.contentRow {
+    display: grid;
+    grid-template-columns: 3fr 2fr 1fr;
+    padding: 15px 0;
+}
+
+.popupWrap {
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+    padding: 15px 30px;
+    width: 400px;
+    font-size: 22px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.popupInput {
+    padding: 0 20px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.btn-save,
+.btn-cancel {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+
+.btn-save:hover,
+.btn-cancel:hover {
+    cursor: pointer;
+    box-shadow: 0 0 3px black;
+}
+
+.actionBox {
+    display: flex;
+    gap: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.errore {
+    color: red;
+    font-size: 16px;
+}
+
+.edit,
+.delete {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-size: contain;    
+}
+
+.edit:hover,
+.delete:hover {
+    cursor: pointer;
+}
+
+.edit {
+    background-image: url(7c20ceca07cbd4998585.svg);
+}
+
+.delete {
+    background-image: url(eac1a29b0fcadff53187.svg);
+}
+
+/*# sourceMappingURL=main.css.map*/
